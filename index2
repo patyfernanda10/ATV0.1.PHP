@@ -1,0 +1,60 @@
+<?php
+//questao1
+  $valor1 = 12;
+  $valor2 = 10;
+
+  if ($valor1 > $valor2) {  
+    echo "$valor1 é maior que o $valor2";
+    } else {
+    echo "$valor2 é maior que o $valor1";}
+
+    
+?>
+
+<?php
+//questao2
+    $valor = -1;
+
+    if ($valor >0){
+    echo"o número é positivo";
+    } elseif
+    ($valor <0){
+    echo "o número é negativo";}
+?>
+
+<?php
+//questao3
+    $genero = "m";
+
+    if ($genero = "F" or "f"){
+    echo "o gênero é feminino";
+    } elseif
+    ($genero = "M" or "m"){
+    echo "o gênero é masculino";}
+?>
+
+<?php
+//questao4
+    $letra = "m";
+
+    if ($letra == "A". "a". "E". "e" ."I". "i".  "O". "o"."U"."u"){
+    echo "A letra é uma vogal";
+    } else {
+    echo "A letra é uma consoante";}
+?>
+
+ <?php
+ //questao5
+     $nota1 = 5;
+     $nota2 = 8;
+
+     $media = (($nota1 + $nota2) / 2);
+     echo "Sua média é: $media" . PHP_EOL;
+
+     if ($media >= 7) {
+     echo"Você está aprovado";
+    } elseif ($media  >=5) {
+      echo"Você está na média";
+    } elseif ($media <=4) {
+        echo"Você está reprovado";}
+ ?>
